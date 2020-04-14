@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class Form1 : Form
+    public partial class Calculadora : Form
     {
-        public Form1()
+        public Calculadora()
         {
             InitializeComponent();
+        }
+
+        private void Calculadora_Load(object sender, EventArgs e)
+        {
+            this.txtPantalla.Focus();
         }
     }
 }
